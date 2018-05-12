@@ -33,7 +33,7 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
           <li><a href="#">Home</a></li>
           <li><a href="#">Blog</a></li>
           <div class="header-nav-section">
-            Place any thing you want here
+            PLACE TEXT HERE
           </div>
         </ul>
       </div>
@@ -53,19 +53,26 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
               <li><a href="https://www.instagram.com/aqsmalhotra/" target="_blank"><img src="./images/social/social-icon3.png" /></a></li>
               <li><a href="https://ca.linkedin.com/in/aqs-malhotra-381b7752" target="_blank"><img src="./images/social/social-icon4.png" /></a></li>
             </ul>
-            <p class="portfolio-text text-left">
-              Hi, My Name is Aqs Malhotra and I am a newbie Frontend & User Experience
-              (UX) Designer. After a steady career
-            </p>
+            <div class="portfolio-text text-left">
+              <p>
+              Hi, I am Aqs Malhotra, a pocket-sized anime and sci-fi geek, also,
+              a newbie Frontend and User Experience (UX) Designer. I worked as a
+              digital marketer and blogger for over 3 years in India before finding
+              my calling in the field of design.
+              </p>
+            </div>
             <div class="cv-block">
               <a class="cv-btn" target="_blank" href="#">View Projects</a>
               <a class="cv-btn" target="_blank" href="#">Download CV</a>
             </div>
           </div>
+
         </div>
-
       </div>
-
+      <p class="mt-1">
+      When I am not watching doggo <img src="./images/dog.png"> videos on instagram , I work on building
+      wireframes and custom templates for websites and applications based on client's <img src="./images/devil.png"> insights and suggestions.
+      </p>
       <div class="main-nav">
         <ul>
           <li><a href="#"><i class="ion-home"></i></a></li>
@@ -78,54 +85,64 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
       </div>
   </main>
 
-
-
   <section class="container-fluid">
-    <h3>Process</h3>
-    <p class="mb-2">This is how you are supposed to get this job done.<span class="highlight">Website Design</span></p>
+    <div class="text-center">
+      <img src="./images/headers/process.png" class="header-icon">
+      <h3>Process - How does it work?</h3>
+    </div>
+    <p class="mb-2">
+    A web project, be it for a client or personal, needs to <span class="highlight">
+     convey the objective clearly.</span> A website visitor
+    should be able to understand the website's purpose easily regardless of the page
+    they land on.
+    </p>
+    <p>
+    Hence, to ensure a successful design implementation, an optimal
+    process is the way to be as opposed to "winging it".
+    </p>
     <div class="row text-center text-uppercase process">
       <div class="col-lg-3 mt-2 mb-2">
         <span class="d-block"><img src="./images/process/icon1.png" class="img-fluid" /></span>
-        <span class="d-block font-weight-bold">Step I</span>
-        <span class="d-block">Brainstorming</span>
+        <span class="d-block">Step I</span>
+        <span class="d-block process-text">Ideation</span>
       </div>
       <div class="col-lg-3 mt-2 mb-2">
         <span class="d-block"><img src="./images/process/icon2.png" class="img-fluid" /></span>
-        <span class="d-block font-weight-bold">Step II</span>
-        <span class="d-block">Tasks & Timeline</span>
+        <span class="d-block">Step II</span>
+        <span class="d-block process-text">Tasks & Timeline</span>
       </div>
       <div class="col-lg-3 mt-2 mb-2">
         <span class="d-block"><img src="./images/process/icon3.png" class="img-fluid" /></span>
-        <span class="d-block font-weight-bold">Step III</span>
-        <span class="d-block">Wireframe & Mockup</span>
+        <span class="d-block">Step III</span>
+        <span class="d-block process-text">Wireframe & Mockup</span>
       </div>
       <div class="col-lg-3 mt-2 mb-2">
         <span class="d-block"><img src="./images/process/icon4.png" class="img-fluid" /></span>
-        <span class="d-block font-weight-bold">Step IV</span>
-        <span class="d-block">Content Creation</span>
+        <span class="d-block">Step IV</span>
+        <span class="d-block process-text">Content Creation</span>
       </div>
       <div class="col-lg-3 mt-2 mb-2">
         <span class="d-block"><img src="./images/process/icon5.png" class="img-fluid" /></span>
-        <span class="d-block font-weight-bold">Step V</span>
-        <span class="d-block">Design Implementation</span>
+        <span class="d-block">Step V</span>
+        <span class="d-block process-text">Design Implementation</span>
       </div>
       <div class="col-lg-3 mt-2 mb-2">
         <span class="d-block"><img src="./images/process/icon6.png" class="img-fluid" /></span>
-        <span class="d-block font-weight-bold">Step VI</span>
-        <span class="d-block">Testing</span>
+        <span class="d-block">Step VI</span>
+        <span class="d-block process-text">Testing</span>
       </div>
       <div class="col-lg-3 mt-2 mb-2">
         <span class="d-block"><img src="./images/process/icon7.png" class="img-fluid" /></span>
-        <span class="d-block font-weight-bold">Step VII</span>
-        <span class="d-block">Pre-Deployment Review</span>
+        <span class="d-block">Step VII</span>
+        <span class="d-block process-text">Pre-Deployment Review</span>
       </div>
       <div class="col-lg-3 mt-2 mb-2">
         <span class="d-block"><img src="./images/process/icon8.png" class="img-fluid" /></span>
-        <span class="d-block font-weight-bold">Step VIII</span>
-        <span class="d-block">Deployment & Enjoy</span>
+        <span class="d-block">Step VIII</span>
+        <span class="d-block process-text">Deployment & Enjoy</span>
       </div>
     </div>
-    <p class="mt-2">This is how you are supposed to get this job done.<span class="highlight">Website Design</span></p>
+    <p class="mt-2">This process works! Don't believe me? Check out my web projects in the section below.</p>
   <div class="row">
     <div class="col-lg-12">
       <h3>Projects</h3>
