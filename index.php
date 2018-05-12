@@ -1,6 +1,6 @@
 
 <?php
-DEFINE('BASE_URL','http://localhost/aqsweb/');
+DEFINE('BASE_URL','http://localhost/portfolio/');
 ?>
 <meta name="author" content="AQS">
 <meta charset="utf-8">
@@ -19,7 +19,7 @@ DEFINE('BASE_URL','http://localhost/aqsweb/');
 <script src="<?php echo BASE_URL; ?>script/script.js?v=1.0"></script>
 </head>
 <body>
- 
+
 <div class="page-wrapper">
   <header>
 
