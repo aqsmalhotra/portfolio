@@ -87,6 +87,56 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
 
   <section class="container-fluid">
     <div class="text-center">
+      <img src="./images/headers/skills.png" class="header-icon">
+      <h3>Skills & Interests</h3>
+    </div>
+    <p class="mb-2">
+      To breakdown my daily schedule, most of my time would be divided among
+      design & wireframing, eating and watching re-reruns of F.R.I.E.N.D.S. <img src="./images/cat.png">
+      Nevertheless, these are the <span class="highlight">tools of my trade</span>, some essential, some just
+      for party tricks!
+    </p>
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-3">
+        <span class="font-weight-bold text-uppercase">Web Design</span>
+        <ul class="list-unstyled">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>SASS/LESS</li>
+          <li>JavaScript</li>
+          <li>WordPress</li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3">
+        <span class="font-weight-bold text-uppercase">Wireframing</span>
+        <ul class="list-unstyled">
+          <li>Balsamiq</li>
+          <li>UXPin</li>
+          <li>InVision</li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3">
+        <span class="font-weight-bold text-uppercase">Digital Marketing</span>
+        <ul class="list-unstyled">
+          <li>Google Adwords</li>
+          <li>Google Analytics</li>
+          <li>Buffer</li>
+          <li>Canva</li>
+          <li>MS Office</li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-3">
+        <span class="font-weight-bold text-uppercase">Auxiliary</span>
+        <ul class="list-unstyled">
+          <li>Trekking</li>
+          <li>Falling off a skateboard</li>
+          <li>Whiskey Pong</li>
+          <li>Food Wars! Cooking</li>
+          <li>Arcade Gaming</li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center">
       <img src="./images/headers/process.png" class="header-icon">
       <h3>Process - How does it work?</h3>
     </div>
@@ -142,13 +192,75 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
         <span class="d-block process-text">Deployment & Enjoy</span>
       </div>
     </div>
-    <p class="mt-2">This process works! Don't believe me? Check out my web projects in the section below.</p>
-  <div class="row">
-    <div class="col-lg-12">
+    <p class="mt-2">This process works! Don't believe me? Check out my <span class="highlight">web projects</span> in the section below.</p>
+
+
+
+    <div class="text-center">
+      <img src="./images/headers/project.png" class="header-icon">
       <h3>Projects</h3>
     </div>
-  </div>
-</section>
+    <p class="mb-2">
+
+    </p>
+
+    <p class="mt-2">
+
+    </p>
+
+
+    <div class="text-center">
+      <img src="./images/headers/contact.png" class="header-icon">
+      <h3>Get in Touch</h3>
+    </div>
+      <p class="mb-2">
+        Do you have a project in mind? Wish to <span class="highlight">collaborate or hire</span> me for a task?
+        DM me and I'll get back to you ASAP!
+      </p>
+      <form id="contact-form" class="contact-form">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" class="form-control" placeholder="Ichigo Kurosaki" required="required" data-error="Please enter your full name">
+            <div class="help-block with-errors"></div>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" class="form-control" placeholder="ginichimaru@bleach.com" required="required" data-error="Please enter your email address">
+            <div class="help-block with-errors"></div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone (optional)</label>
+            <input id="phone" type="text" name="phone" class="form-control" placeholder="555-312-3241" data-error="Please enter your phone number">
+            <div class="help-block with-errors"></div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input id="subject" type="text" name="subject" class="form-control" placeholder="Bleach Final Arc Discussion" required="required" data-error="Please enter the reason for messaging">
+            <div class="help-block with-errors"></div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" class="form-control" placeholder="The most interesting i.e. 1000 Year Battle, never made it to Anime. Would you like to collaborate and create an online web series?" rows="4" required="required" data-error="OOPS, you forgot to enter the message!"></textarea>
+                    <small>not more than 200 words.</small>
+                    <div class="help-block with-errors"></div>
+          </div>
+          <div>
+            <input type="submit" class="btn btn-success" value="SUBMIT">
+          </div>
+        </div>
+      </form>
+      </div>
+    <p class="mt-2">
+      I am currently working on launching a design blog. Stay tuned for daily
+      updates from the world of digital design <img src="./images/caveman.png"> and marketing.
+    </p>
+    <br/>
+
+  </section>
 
 
 

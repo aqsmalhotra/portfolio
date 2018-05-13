@@ -298,3 +298,15 @@ section {
     transform: translate3d(4px, 0, 0);
   }
 }
+
+.skill-head {
+  font-size: 24px !important;
+}
+
+#contact-form {
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  padding: 1.5em;
+  line-height: 2em;
+  background: #d2ebff;
+  border: ridge 1px hsla(0, 95%, 35%, 1);
+}
