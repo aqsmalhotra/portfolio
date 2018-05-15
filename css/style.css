@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Patrick+Hand');
+@import url('https://fonts.googleapis.com/css?family=Delius');
 
 html{
     box-sizing:border-box;
@@ -11,7 +11,6 @@ h2 {
 h3 {
   font-size: 1.5em;
   font-weight: 600;
-  font-family: 'Indie Flower', sans-serif;
 }
 
 *, *::before, *::after{
@@ -20,14 +19,14 @@ h3 {
 
 body{
     background-color: #F3F3F3;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5em;
     letter-spacing: .08em;
     padding: 0;
     margin: 0;
     min-height: 100%;
     -webkit-font-smoothing: antialiased;
-    font-family: 'Patrick Hand',sans-serif;
+    font-family: 'Delius',sans-serif;
     overflow-x: hidden;
 }
 
@@ -123,7 +122,6 @@ main{
   list-style-type: none;
   position: absolute;
   background-color: #fff;
-  margin: 0;
   padding: 0;
   z-index: 10;
 }
@@ -166,7 +164,6 @@ main{
 }
 
 .portfolio-name {
-  font-family: 'Indie Flower', sans-serif;
   padding: 10px 0 5px 0;
   color: rgba(255,255,255,0.8);
 }
@@ -174,7 +171,7 @@ main{
 .portfolio-role {
   font-size: 1.2em;
   text-transform: uppercase;
-  font-family: 'Patrick Hand', sans-serif;
+  font-family: 'Delius', sans-serif;
   color: rgba(255,255,0,0.9);
 }
 
@@ -238,9 +235,7 @@ footer{
   color: rgba(255,255,0,0.9);
 }
 
-section {
-  background-color: #fff;
-}
+
 
 .process img {
   -moz-transform: scale(0.9);
@@ -265,12 +260,26 @@ section {
 }
 
 .highlight {
-  background-color: #fff2ac;
-  background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+  background-color: transparent;
+  display: inline;
+  opacity:1;
+}
+
+.highlighted{
+  animation: hl .5s ease forwards ;
+}
+
+@keyframes hl {
+  0%{
+    background-color:#fff;
+  }
+  100%{
+    background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+  }
 }
 
 .process-text {
-  font-size: 16px;
+  font-size: 12px;
   color: #ad3b32;
 }
 
@@ -307,6 +316,34 @@ section {
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
   padding: 1.5em;
   line-height: 2em;
-  background: #d2ebff;
-  border: ridge 1px hsla(0, 95%, 35%, 1);
+  background: #f6fbff;
+  border: ridge 1px hsl(0, 37%, 92%);
+}
+
+section {
+  background-color: #fff !important;
+}
+
+section .header-icon {
+  padding: 20px 0 10px 0;
+}
+
+.project {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.process-head {
+  font-size: 14px;
+}
+
+.project-name {
+  font-size: 1.2em!important;
+  color: #F44336;
+  text-transform: uppercase;
+}
+
+.main-nav img {
+  max-width: 24px;
+  height: auto;
 }

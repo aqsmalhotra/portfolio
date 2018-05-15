@@ -17,10 +17,6 @@ $(function() {
 
 
 
-
-
-
-
   //START YOUR OWN JQUERY SCRIPT here
 
   //fix the main nav position when user scroll beyond the header
