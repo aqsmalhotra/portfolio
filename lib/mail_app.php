@@ -20,7 +20,7 @@ function send_mail($email_from, $email_to, $subject, $msg) {
       $mail->Username = "dazzlin.star.park@gmail.com";
       $mail->Password = "toilatoi";
 
-      $mail->SetFrom($email_from, 'AQS - CONTACT FORM');
+      $mail->SetFrom($email_from, 'New Message from Portfolio Site');
       $mail->Subject = $subject;
       $mail->Body = $msg;
       $mail->AddAddress($email_to);

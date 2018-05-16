@@ -85,11 +85,11 @@ $(function() {
       </div>
       <div class="main-nav">
         <ul>
-          <li><a href="#"><img src="./images/menu/home.png"></a></li>
-          <li><a href="#"><img src="./images/menu/skills.png"></a></a></li>
-          <li><a href="#"><img src="./images/menu/process.png"></a></a></li>
-          <li><a href="#"><img src="./images/menu/projects.png"></a></a></li>
-          <li><a href="#"><img src="./images/menu/contact.png"></a></a></li>
+          <li tooltip="Home" tooltip-position="right"><a href="#"><img src="./images/menu/home.png"></a></li>
+          <li tooltip="Skills" tooltip-position="right"><a href="#"><img src="./images/menu/skills.png"></a></a></li>
+          <li tooltip="Process" tooltip-position="right"><a href="#"><img src="./images/menu/process.png"></a></a></li>
+          <li tooltip="Projects" tooltip-position="right"><a href="#"><img src="./images/menu/projects.png"></a></a></li>
+          <li tooltip="Contact" tooltip-position="right"><a href="#"><img src="./images/menu/contact.png"></a></a></li>
         </ul>
       </div>
   </main>
@@ -350,6 +350,19 @@ $(function() {
     <p class="mt-2 pb-2">
       I am currently working on launching a design blog. Stay tuned for daily
       updates from the world of digital design <img src="./images/caveman.png"> and marketing.
+    </p>
+    <p>
+
+<div class="container">
+<button tooltip="Simple Tooltip"> Click Here!! </button>
+  <button tooltip="Buttom Tooltip " tooltip-position="buttom"> Click Here!! </button>
+  <span tooltip='Input tooltip ^_^' tooltip-position='buttom' class="input">
+ <input  type="text"  /> </span>
+  <button tooltip="Right Tooltip ^_^" tooltip-position="right"> Click Here!! </button>
+  <button tooltip="Left Tooltip ^_^" tooltip-position="left"> Click Here!! </button>
+
+
+</div>
     </p>
   </section>
 

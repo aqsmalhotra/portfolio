@@ -73,3 +73,47 @@
 @media only screen and (max-width: 400px) { /*MOBILE SIZE */
 
 }
+
+
+@media only screen and (max-width: 1136px) {
+
+  [tooltip-position='right']::before{
+    left:0%;
+    top:50%;
+    margin-left:-12px;
+    transform:translatey(-50%) rotate(-90deg)
+  }
+
+  [tooltip-position='right']::after{
+    left:0%;
+    top:50%;
+    margin-left:-8px;
+    transform: translateX(-100%)   translateY(-50%);
+  }
+
+}
+
+
+@media only screen and (max-width: 980px) {
+
+  [tooltip]::before {
+      left:70%;
+  }
+
+  [tooltip]::after {
+      left:70%;
+  }
+
+  [tooltip-position='right']::before{
+    top:100%;
+    margin-top:8px;
+    transform: translateX(-50%) translatey(-100%) rotate(-180deg)
+  }
+
+  [tooltip-position='right']::after{
+    top:100%;
+    margin-top:8px;
+    transform: translateX(-50%) translateY(0%);
+  }
+
+}

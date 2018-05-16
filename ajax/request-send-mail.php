@@ -9,7 +9,7 @@ $email =  $_POST['email'];
 $phone =  $_POST['phone'];
 $subject =  $_POST['subject'];
 $message =  $_POST['message'];
-$email_to = "dinhconganh@gmail.com";
+$email_to = "aqsm2011@gmail.com";
 $propose_msg = "Hello, Aqs,<br>
                     You have new message from <strong>".strtoupper($name)."</strong> posted on your website. Here is the message: <br>
                     <em>".$message."</em><br>
