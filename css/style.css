@@ -158,9 +158,10 @@ main{
 }
 
 .fix-mode {
-    position: fixed;
-    right: 210px;
-    top: 0;
+  position: fixed;
+      top: 0;
+      margin-right: -420px;
+      right: 50%
 }
 
 .portfolio-name {

@@ -1,6 +1,6 @@
 
 <?php
-DEFINE('BASE_URL','http://localhost/portfolio/');
+DEFINE('BASE_URL','http://localhost:8888/aqs_portfolio/');
 ?>
 <meta name="author" content="AQS">
 <meta charset="utf-8">
@@ -9,15 +9,15 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel='stylesheet prefetch' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>css/style.css?v=1.1">
-<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>css/responsive.css?v=1.0">
+<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>css/style.css?v=1.2">
+<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>css/responsive.css?v=1.1">
 <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
 <link rel="icon" href="images/logo.ico" type="image/x-icon">
 <!--JAVASCRIPT LIBRARY INCLUDED JQUERY, BOOSTRAP-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="<?php echo BASE_URL; ?>script/script.js?v=1.0"></script>
+<script src="<?php echo BASE_URL; ?>script/script.js?v=1.2"></script>
 
 
 <script>
@@ -324,6 +324,7 @@ $(function() {
                     <small>not more than 200 words.</small>
                     <div class="help-block with-errors"></div>
           </div>
+          <div class="err-msg"></div>
           <div>
             <input type="submit" class="btn btn-success" value="SUBMIT">
           </div>
@@ -358,6 +359,26 @@ $(function() {
     </div>
   </footer>
 </div>
+<script>
+  $(function() {
+    $('#contact-form').on('submit', function() {
+      var name = $('#name').val();
+      var email = $('#email').val();
+      var phone = $('#phone').val();
+      var subject = $('#subject').val();
+      var message = $('#message').val();
 
+      $.ajax({
+        method: 'post',
+        url: 'ajax/request-send-mail.php',
+        data: {name:name, email:email, phone:phone, subject:subject, message:message},
+        success: function(data){
+          $('#contact-form').html(data);
+        }
+      });
+      return false;
+    });
+  });
+</script>
 </body>
 </html>

@@ -11,21 +11,27 @@ $(function() {
 
 
 
-
-
-
-
-
-
   //START YOUR OWN JQUERY SCRIPT here
 
   //fix the main nav position when user scroll beyond the header
   $(window).scroll(function(){
-    //console.log($(window).scrollTop());
-    if($(window).scrollTop() >= 102){
-      $('.main-nav').addClass('fix-mode');
+
+    if(!$('.main-nav').hasClass('mini-mode')){
+      if($(window).scrollTop() > 102 ){
+        $('.main-nav').addClass('fix-mode');
+      }else{
+        $('.main-nav').removeClass('fix-mode');
+      }
+    }
+
+  });
+
+  $(window).resize(function() {
+    var w = $(window).width() + 15;
+    if(w <= 980){
+      $('.main-nav').removeClass('fix-mode').addClass('mini-mode');
     }else{
-      $('.main-nav').removeClass('fix-mode');
+      $('.main-nav').removeClass('mini-mode');
     }
   });
 
