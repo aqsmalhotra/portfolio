@@ -1,6 +1,6 @@
 
 <?php
-DEFINE('BASE_URL','http://localhost:8888/aqs_portfolio/');
+DEFINE('BASE_URL','http://localhost/portfolio/');
 ?>
 <meta name="author" content="AQS">
 <meta charset="utf-8">
