@@ -1,17 +1,17 @@
 $(function() {
 
-  /* CUSTOM BUILT IN FUNC */
-  //scroll to div function
-  function scrollToDiv($div_name){
-    $("html, body").delay(500).animate({
-        scrollTop: $($div_name).offset().top
-    }, 500);
-  }
-  /* END OF BUILT IN FUNC */
+  //smooth scroll through href-attr tags
+  $(document).on('click', 'a[href^="#"]', function(e) {
+      var id = $(this).attr('href');
+      var $id = $(id);
+      if ($id.length === 0) {
+          return;
+      }
+      e.preventDefault();
+      var pos = $id.offset().top;
+      $('body, html').animate({scrollTop: pos}, 800);
+  });
 
-
-
-  //START YOUR OWN JQUERY SCRIPT here
 
   //fix the main nav position when user scroll beyond the header
   $(window).scroll(function(){

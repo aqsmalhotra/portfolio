@@ -77,8 +77,8 @@ $(function() {
               </p>
             </div>
             <div class="cv-block">
-              <a class="cv-btn" target="_blank" href="#">View Projects</a>
-              <a class="cv-btn" target="_blank" href="#">Download CV</a>
+              <a class="cv-btn" href="#projects">View Projects</a>
+              <a class="cv-btn" target="_blank" href="./uploads/resume.pdf">Download CV</a>
             </div>
           </div>
 

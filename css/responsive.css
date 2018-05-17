@@ -95,13 +95,8 @@
 
 
 @media only screen and (max-width: 980px) {
-
-  [tooltip]::before {
-      left:70%;
-  }
-
-  [tooltip]::after {
-      left:70%;
+  .fix-mode {
+    margin-right: auto;
   }
 
   [tooltip-position='right']::before{
