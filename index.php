@@ -11,15 +11,15 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>css/style.css?v=1.2">
 <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>css/responsive.css?v=1.1">
-<link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
-<link rel="icon" href="images/logo.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/favicon.ico" type="image/x-icon">
 <!--JAVASCRIPT LIBRARY INCLUDED JQUERY, BOOSTRAP-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="<?php echo BASE_URL; ?>script/script.js?v=1.2"></script>
 
-
+<!--
 <script>
 $(function() {
   $(window).scroll(function(){
@@ -31,6 +31,7 @@ $(function() {
   });
 });
 </script>
+-->
 </head>
 <body>
 
@@ -55,7 +56,7 @@ $(function() {
   </header>
 
   <main>
-      <div class="main-content">
+      <div class="main-content" id="home">
         <div class="container-fluid">
           <div class="text-center">
             <img src="./images/pic.png" class="img-fluid rounded-circle" width="150" height="150" />
@@ -85,16 +86,16 @@ $(function() {
       </div>
       <div class="main-nav">
         <ul>
-          <li tooltip="Home" tooltip-position="right"><a href="#"><img src="./images/menu/home.png"></a></li>
-          <li tooltip="Skills" tooltip-position="right"><a href="#"><img src="./images/menu/skills.png"></a></a></li>
-          <li tooltip="Process" tooltip-position="right"><a href="#"><img src="./images/menu/process.png"></a></a></li>
-          <li tooltip="Projects" tooltip-position="right"><a href="#"><img src="./images/menu/projects.png"></a></a></li>
-          <li tooltip="Contact" tooltip-position="right"><a href="#"><img src="./images/menu/contact.png"></a></a></li>
+          <li tooltip="Home" tooltip-position="right"><a href="#home"><img src="./images/menu/home.png"></a></li>
+          <li tooltip="Skills" tooltip-position="right"><a href="#skills"><img src="./images/menu/skills.png"></a></a></li>
+          <li tooltip="Process" tooltip-position="right"><a href="#process"><img src="./images/menu/process.png"></a></a></li>
+          <li tooltip="Projects" tooltip-position="right"><a href="#projects"><img src="./images/menu/projects.png"></a></a></li>
+          <li tooltip="Contact" tooltip-position="right"><a href="#contact"><img src="./images/menu/contact.png"></a></a></li>
         </ul>
       </div>
   </main>
 
-  <section class="container-fluid" id="skills-block">
+  <section class="container-fluid" id="skills">
     <div class="text-center">
       <img src="./images/headers/skills.png" class="header-icon">
       <h3>Skills & Interests</h3>
@@ -145,7 +146,7 @@ $(function() {
     some essential, some just for party tricks!</p>
   </section>
 
-    <section class="container-fluid">
+    <section class="container-fluid" id="process">
     <div class="text-center">
       <img src="./images/headers/process.png" class="header-icon">
       <h3>Process - How does it work?</h3>
@@ -201,7 +202,7 @@ $(function() {
     <p class="mt-2 pb-2">This process works! Don't believe me? Check out my <span class="highlight">web projects</span> in the section below.</p>
   </section>
 
-  <section class="container-fluid">
+  <section class="container-fluid" id="projects">
     <div class="text-center">
       <img src="./images/headers/project.png" class="header-icon">
       <h3>Projects</h3>
@@ -284,7 +285,7 @@ $(function() {
     </p>
 </section>
 
-<section class="container-fluid">
+<section class="container-fluid" id="contact">
     <div class="text-center">
       <img src="./images/headers/contact.png" class="header-icon">
       <h3>Get in Touch</h3>
@@ -350,19 +351,6 @@ $(function() {
     <p class="mt-2 pb-2">
       I am currently working on launching a design blog. Stay tuned for daily
       updates from the world of digital design <img src="./images/caveman.png"> and marketing.
-    </p>
-    <p>
-
-<div class="container">
-<button tooltip="Simple Tooltip"> Click Here!! </button>
-  <button tooltip="Buttom Tooltip " tooltip-position="buttom"> Click Here!! </button>
-  <span tooltip='Input tooltip ^_^' tooltip-position='buttom' class="input">
- <input  type="text"  /> </span>
-  <button tooltip="Right Tooltip ^_^" tooltip-position="right"> Click Here!! </button>
-  <button tooltip="Left Tooltip ^_^" tooltip-position="left"> Click Here!! </button>
-
-
-</div>
     </p>
   </section>
 
