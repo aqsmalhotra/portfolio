@@ -18,16 +18,19 @@ h3 {
 }
 
 body{
-    background-color: #F3F3F3;
-    font-size: 16px;
-    line-height: 1.5em;
-    letter-spacing: .08em;
-    padding: 0;
-    margin: 0;
-    min-height: 100%;
-    -webkit-font-smoothing: antialiased;
-    font-family: 'Delius',sans-serif;
-    overflow-x: hidden;
+  background-image: url(../images/bg.png);
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: .08em;
+  padding: 0;
+  margin: 0;
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Delius',sans-serif;
+  overflow-x: hidden;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top center;
 }
 
 header .toggle-menu{
