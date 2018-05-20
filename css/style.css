@@ -1,16 +1,21 @@
-@import url('https://fonts.googleapis.com/css?family=Delius');
+@import url('https://fonts.googleapis.com/css?family=Delius|Lato');
 
 html{
     box-sizing:border-box;
 }
 
+h1 {
+  font-size: 1.75em;
+}
+
 h2 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 h3 {
+  font-family: 'Delius',sans-serif;
   font-size: 1.5em;
-  font-weight: 600;
+  color: #290404;
 }
 
 *, *::before, *::after{
@@ -26,7 +31,7 @@ body{
   margin: 0;
   min-height: 100%;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Delius',sans-serif;
+  font-family: 'Lato',sans-serif;
   overflow-x: hidden;
   background-attachment: fixed;
   background-size: cover;
@@ -173,7 +178,6 @@ main{
 }
 
 .portfolio-role {
-  font-size: 1.2em;
   text-transform: uppercase;
   font-family: 'Delius', sans-serif;
   color: rgba(255,255,0,0.9);
@@ -230,8 +234,9 @@ footer{
   padding: 10px 20px;
   color: #fefefe;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13px;
   margin: 0 15px;
+  font-family: 'Lato',sans-serif;
 }
 
 .cv-btn:hover {
@@ -240,7 +245,7 @@ footer{
 }
 
 
-
+/*
 .process img {
   -moz-transform: scale(0.9);
   -webkit-transform: scale(0.9);
@@ -263,53 +268,12 @@ footer{
   -ms-transition:transform 1.05s ease-in-out;
 }
 
-.highlight {
-  background-color: transparent;
-  display: inline;
-  opacity:1;
-}
-
-.highlighted{
-  animation: hl .5s ease forwards ;
-}
-
-@keyframes hl {
-  0%{
-    background-color:#fff;
-  }
-  100%{
-    background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
-  }
-}
+*/
 
 .process-text {
+  font-family: 'Lato',sans-serif;
   font-size: 12px;
   color: #ad3b32;
-}
-
-.header-icon:hover {
-  animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
-}
-
-@keyframes shake {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
-
-  20%, 80% {
-    transform: translate3d(2px, 0, 0);
-  }
-
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
-  }
-
-  40%, 60% {
-    transform: translate3d(4px, 0, 0);
-  }
 }
 
 .skill-head {
@@ -328,8 +292,12 @@ section {
   background-color: #fff !important;
 }
 
+.header-icon {
+  width: 48px;
+}
+
 section .header-icon {
-  padding: 20px 0 10px 0;
+  padding: 60px 0 10px 0;
 }
 
 .project {
@@ -342,9 +310,8 @@ section .header-icon {
 }
 
 .project-name {
-  font-size: 1.2em!important;
+  font-size: 1.2em;
   color: #F44336;
-  text-transform: uppercase;
 }
 
 .main-nav img {
@@ -406,4 +373,29 @@ section .header-icon {
 
 [tooltip]:hover::after,[tooltip]:hover::before {
    opacity:1
+}
+
+.skill-set {
+  font-family: 'Lato',sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #F44336;
+}
+
+.btn-web {
+  font-family: 'Lato',sans-serif;
+  font-size: 14px;
+  box-shadow: -3px 3px #cccccc;
+}
+
+.skill-lists {
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  padding: 1.5em;
+  line-height: 2em;
+  background: #f6fbff;
+  border: ridge 1px hsl(0, 37%, 92%);
+}
+
+.project-block p {
+  padding-top: 10px;
 }

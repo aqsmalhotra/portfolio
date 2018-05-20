@@ -10,14 +10,14 @@ function send_mail($email_from, $email_to, $subject, $msg) {
     try {
       $mail->IsSMTP(); // enable SMTP
 
-      $mail->SMTPDebug = 0; // debugging: 1 = errors and messages, 2 = messages only
+      $mail->SMTPDebug = 2; // debugging: 1 = errors and messages, 2 = messages only
       $mail->SMTPAuth = true; // authentication enabled
       $mail->SMTPSecure = 'ssl'; // secure transfer enabled REQUIRED for Gmail
-      $mail->Host = "ssl://smtp.googlemail.com";
+      $mail->Host = "smtp.googlemail.com";
       $mail->Port = 465;
       $mail->IsHTML(true);
 
-      $mail->Username = "dazzlin.star.park@gmail.com";
+      $mail->Username = "admin@aqsmalhotra.com";
       $mail->Password = "toilatoi";
 
       $mail->SetFrom($email_from, 'New Message from Portfolio Site');

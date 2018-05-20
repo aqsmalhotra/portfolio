@@ -1,37 +1,32 @@
 
 <?php
 DEFINE('BASE_URL','http://localhost/portfolio/');
+//DEFINE('BASE_URL','http://aqsmalhotra.com/');
 ?>
-<meta name="author" content="AQS">
+<head>
+<meta name="description" content="This is the portfolio website designed by Aqs Malhotra">
+<meta name="author" content="Aqs Malhotra">
 <meta charset="utf-8">
-<title>Aqs Malhotra</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#00ABEE"/>
+<title>Aqs Malhotra - Web & UX Designer</title>
+
+<!--CSS LIBRARY, FRAMEWORK INCLUDED-->
 <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel='stylesheet prefetch' href='https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>css/style.css?v=1.2">
 <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>css/responsive.css?v=1.1">
-<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+
 <!--JAVASCRIPT LIBRARY INCLUDED JQUERY, BOOSTRAP-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="<?php echo BASE_URL; ?>script/script.js?v=1.2"></script>
-
-<!--
-<script>
-$(function() {
-  $(window).scroll(function(){
-    var w = $(window).scrollTop();
-    var s = $('#skills-block').offset().top;
-    if(w >= s){
-      $('.highlight').addClass('highlighted');
-    }
-  });
-});
-</script>
--->
 </head>
 <body>
 
@@ -39,7 +34,7 @@ $(function() {
   <header>
 <!--
       <div class="header-logo">
-        <img src="./images/logo.svg" class="img-fluid"/> Aqs Malhotra
+        <img alt="SVG" src="./images/logo.svg" class="img-fluid"/> Aqs Malhotra
       </div>
       <div class="toggle-menu"><i class="ion-drag"></i></div>
       <div class="header-nav-wrapper">
@@ -59,14 +54,14 @@ $(function() {
       <div class="main-content" id="home">
         <div class="container-fluid">
           <div class="text-center">
-            <img src="./images/pic.png" class="img-fluid rounded-circle" width="150" height="150" />
-            <h2 class="portfolio-name">Aqs Malhotra</h2>
-            <span class="portfolio-role">Web & UX Designer</span>
+            <img alt="Aqs Malhotra Logo" src="./images/pic.png" class="img-fluid rounded-circle" width="125" height="125" />
+            <h1 class="portfolio-name">Aqs Malhotra</h1>
+            <h2 class="portfolio-role">Web & UX Designer</h2>
             <ul class="social-section">
-              <li><a href="https://www.facebook.com/aqs.malhotra" target="_blank"><img src="./images/social/social-icon1.png" /></a></li>
-              <li><a href="https://github.com/aqsmalhotra/" target="_blank"><img src="./images/social/social-icon2.png" /></a></li>
-              <li><a href="https://www.instagram.com/aqsmalhotra/" target="_blank"><img src="./images/social/social-icon3.png" /></a></li>
-              <li><a href="https://ca.linkedin.com/in/aqs-malhotra-381b7752" target="_blank"><img src="./images/social/social-icon4.png" /></a></li>
+              <li><a href="https://www.facebook.com/aqs.malhotra" target="_blank"><img alt="Aqs Malhotra Facebook" src="./images/social/social-icon1.png" /></a></li>
+              <li><a href="https://github.com/aqsmalhotra/" target="_blank"><img alt="Aqs Malhotra Github" src="./images/social/social-icon2.png" /></a></li>
+              <li><a href="https://www.instagram.com/aqsmalhotra/" target="_blank"><img alt="Aqs Malhotra Instagram" src="./images/social/social-icon3.png" /></a></li>
+              <li><a href="https://ca.linkedin.com/in/aqs-malhotra-381b7752" target="_blank"><img alt="Aqs Malhotra LinkedIn" src="./images/social/social-icon4.png" /></a></li>
             </ul>
             <div class="portfolio-text text-left">
               <p>
@@ -86,115 +81,108 @@ $(function() {
       </div>
       <div class="main-nav">
         <ul>
-          <li tooltip="Home" tooltip-position="right"><a href="#home"><img src="./images/menu/home.png"></a></li>
-          <li tooltip="Skills" tooltip-position="right"><a href="#skills"><img src="./images/menu/skills.png"></a></a></li>
-          <li tooltip="Process" tooltip-position="right"><a href="#process"><img src="./images/menu/process.png"></a></a></li>
-          <li tooltip="Projects" tooltip-position="right"><a href="#projects"><img src="./images/menu/projects.png"></a></a></li>
-          <li tooltip="Contact" tooltip-position="right"><a href="#contact"><img src="./images/menu/contact.png"></a></a></li>
+          <li tooltip="Home" tooltip-position="right"><a href="#home"><img alt="Home Icon" src="./images/menu/home.png"></a></li>
+          <li tooltip="Skills" tooltip-position="right"><a href="#skills"><img alt="Skills Icon" src="./images/menu/skills.png"></a></a></li>
+          <li tooltip="Process" tooltip-position="right"><a href="#process"><img alt="Process Icon" src="./images/menu/process.png"></a></a></li>
+          <li tooltip="Projects" tooltip-position="right"><a href="#projects"><img alt="Projects Icon" src="./images/menu/projects.png"></a></a></li>
+          <li tooltip="Contact" tooltip-position="right"><a href="#contact"><img alt="Contact Icon" src="./images/menu/contact.png"></a></a></li>
         </ul>
       </div>
   </main>
 
   <section class="container-fluid" id="skills">
     <div class="text-center">
-      <img src="./images/headers/skills.png" class="header-icon">
-      <h3>Skills & Interests</h3>
+      <img alt="Skills Icon" src="./images/headers/skills.png" class="header-icon">
+      <h3 class="animated infinite pulse" class="animated infinite pulse">Skills & Interests</h3>
     </div>
     <p class="mb-2">
-      I possess a skill or two, apart from endlessly watching re-reruns of F.R.I.E.N.D.S. <img src="./images/cat.png">
+      I possess a skill or two, apart from endlessly watching re-reruns of F.R.I.E.N.D.S. <img alt="Cats" src="./images/cat.png">
     </p>
-    <div class="row">
-      <div class="col-lg-3 col-md-3 col-sm-3">
-        <span class="font-weight-bold text-uppercase">Web Design</span>
-        <ul class="list-unstyled">
+    <div class="row text-center">
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <span class="skill-set">Design</span>
+        <ul class="list-unstyled skill-lists">
           <li>HTML5</li>
           <li>CSS3</li>
-          <li>SASS/LESS</li>
           <li>JavaScript</li>
-          <li>WordPress</li>
+          <li>WordPress CMS</li>
+          <li>Adobe Photoshop</li>
         </ul>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-3">
-        <span class="font-weight-bold text-uppercase">Wireframing</span>
-        <ul class="list-unstyled">
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <span class="skill-set">Prototyping</span>
+        <ul class="list-unstyled skill-lists">
           <li>Balsamiq</li>
           <li>UXPin</li>
           <li>InVision</li>
+          <li>Mockflow</li>
+          <li>Marvel</li>
         </ul>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-3">
-        <span class="font-weight-bold text-uppercase">Digital Marketing</span>
-        <ul class="list-unstyled">
+      <div class="col-lg-4 col-md-4 col-sm-4">
+        <span class="skill-set">Marketing</span>
+        <ul class="list-unstyled skill-lists">
           <li>Google Adwords</li>
           <li>Google Analytics</li>
-          <li>Buffer</li>
-          <li>Canva</li>
-          <li>MS Office</li>
+          <li>Google Webmaster</li>
+          <li>WP Analytics</li>
+          <li>Moz Analytics</li>
         </ul>
       </div>
-      <div class="col-lg-3 col-md-3 col-sm-3">
-        <span class="font-weight-bold text-uppercase">Auxiliary</span>
-        <ul class="list-unstyled">
-          <li>Trekking</li>
-          <li>Whiskey Pong</li>
-          <li>Food Wars! Cooking</li>
-          <li>Arcade Gaming</li>
-        </ul>
       </div>
-    </div>
     <p class="pb-2">These are the <span class="highlight">tools of my trade</span>,
     some essential, some just for party tricks!</p>
   </section>
 
     <section class="container-fluid" id="process">
     <div class="text-center">
-      <img src="./images/headers/process.png" class="header-icon">
-      <h3>Process - How does it work?</h3>
+      <img alt="Process Icon" src="./images/headers/process.png" class="header-icon">
+      <h3 class="animated infinite pulse">Design Process</h3>
     </div>
     <p class="mb-2">
     A web project, be it for a client or personal, needs to <span class="highlight">
     convey the objective clearly.</span> For me, an optimal step-by-step process
     is the way to be as opposed to simply
-    <img src="./images/wings.png"> "winging it".
+    <img alt="Wings" src="./images/wings.png"> "winging it".
     </p>
     <div class="row text-center text-uppercase process">
       <div class="col-lg-3 mt-2 mb-2">
-        <span class="d-block"><img src="./images/process/icon1.png" class="img-fluid" /></span>
+        <span class="d-block"><img alt="Process Step 1" src="./images/process/icon1.png" class="img-fluid" /></span>
         <span class="d-block process-head">Step I</span>
         <span class="d-block process-text">Ideation</span>
       </div>
       <div class="col-lg-3 mt-2 mb-2">
-        <span class="d-block"><img src="./images/process/icon2.png" class="img-fluid" /></span>
+        <span class="d-block"><img alt="Process Step 2" src="./images/process/icon2.png" class="img-fluid" /></span>
         <span class="d-block process-head">Step II</span>
         <span class="d-block process-text">Tasks & Timeline</span>
       </div>
       <div class="col-lg-3 mt-2 mb-2">
-        <span class="d-block"><img src="./images/process/icon3.png" class="img-fluid" /></span>
+        <span class="d-block"><img alt="Process Step 3" src="./images/process/icon3.png" class="img-fluid" /></span>
         <span class="d-block process-head">Step III</span>
         <span class="d-block process-text">Wireframe & Mockup</span>
       </div>
       <div class="col-lg-3 mt-2 mb-2">
-        <span class="d-block"><img src="./images/process/icon4.png" class="img-fluid" /></span>
+        <span class="d-block"><img alt="Process Step 4" src="./images/process/icon4.png" class="img-fluid" /></span>
         <span class="d-block process-head">Step IV</span>
         <span class="d-block process-text">Content Creation</span>
       </div>
       <div class="col-lg-3 mt-2 mb-2">
-        <span class="d-block"><img src="./images/process/icon5.png" class="img-fluid" /></span>
+        <span class="d-block"><img alt="Process Step 5" src="./images/process/icon5.png" class="img-fluid" /></span>
         <span class="d-block process-head">Step V</span>
         <span class="d-block process-text">Design Implementation</span>
       </div>
       <div class="col-lg-3 mt-2 mb-2">
-        <span class="d-block"><img src="./images/process/icon6.png" class="img-fluid" /></span>
+        <span class="d-block"><img alt="Process Step 6" src="./images/process/icon6.png" class="img-fluid" /></span>
         <span class="d-block process-head">Step VI</span>
         <span class="d-block process-text">Testing</span>
       </div>
       <div class="col-lg-3 mt-2 mb-2">
-        <span class="d-block"><img src="./images/process/icon7.png" class="img-fluid" /></span>
+        <span class="d-block"><img alt="Process Step 7" src="./images/process/icon7.png" class="img-fluid" /></span>
         <span class="d-block process-head">Step VII</span>
         <span class="d-block process-text">Pre-Deployment Review</span>
       </div>
       <div class="col-lg-3 mt-2 mb-2">
-        <span class="d-block"><img src="./images/process/icon8.png" class="img-fluid" /></span>
+        <span class="d-block"><img alt="Process Step 8" src="./images/process/icon8.png" class="img-fluid" /></span>
         <span class="d-block process-head">Step VIII</span>
         <span class="d-block process-text">Deployment & Enjoy</span>
       </div>
@@ -204,8 +192,8 @@ $(function() {
 
   <section class="container-fluid" id="projects">
     <div class="text-center">
-      <img src="./images/headers/project.png" class="header-icon">
-      <h3>Projects</h3>
+      <img alt="Projects Icon" src="./images/headers/project.png" class="header-icon">
+      <h3 class="animated infinite pulse">Projects</h3>
     </div>
     <p class="mb-2">
       Since I am less than an year old in the design industry, there is no big line-up of
@@ -214,35 +202,37 @@ $(function() {
 
     <!-- Project #1 -->
     <!-- Start -->
+    <!--
     <div class="row project">
       <div class="col-lg-5 col-md-5 col-sm-12 text-center">
-        <img src="./images/projects/site1.png" class="img-fluid">
+        <img alt="Project Banner" src="./images/projects/site1.png" class="img-fluid">
       </div>
-      <div class="col-lg-7 col-md-7 col-sm-12">
-        <h4 class="project-name">Hotel Saffron</h4>
+      <div class="col-lg-7 col-md-7 col-sm-12 project-block">
+        <span class="project-name">Hotel Saffron</span>
         <p>Built with Custom CSS, Bootstrap and minimal PHP, this single-page
           design was made to ensure more people can visit and access the website without
           compromising speed and quality.
         </p>
-        <a href="" class="d-block pt-1 pb-1" target="_blank"><button type="button" class="btn btn-success btn-sm" style="box-shadow:-3px 3px #28a64561;">EXPLORE WEBSITE</button></a>
-        <a href="" class="d-block pt-1 pb-1" target="_blank"><button type="button" class="btn btn-danger btn-sm" style="box-shadow:-3px 3px #28a64561;">VIEW SOURCE CODE</button></a>
+        <a href="" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-warning btn-web btn-sm"><i class="fas fa-globe"></i> EXPLORE WEBSITE</button></a>
+        <a href="" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-dark btn-web btn-sm">VIEW SOURCE CODE</button></a>
       </div>
     </div>
+    -->
     <!-- End -->
 
     <!-- Project #2 -->
     <!-- Start -->
     <div class="row project">
       <div class="col-lg-5 col-md-5 col-sm-12 text-center">
-        <img src="./images/projects/site2.png" class="img-fluid">
+        <img alt="Project Banner" src="./images/projects/site2.png" class="img-fluid">
       </div>
-      <div class="col-lg-7 col-md-7 col-sm-12">
-        <h4 class="project-name">Dazzlin Star Island Amusement Park</h4>
+      <div class="col-lg-7 col-md-7 col-sm-12 project-block">
+        <span class="project-name">Dazzlin Star Island Amusement Park</span>
         <p>This is a college group project where I was the lead designer. This website is
         for a non-existent theme park in Toronto with numerous features, like
         ticket booking, parking, careers etc.</p>
-        <a href="" class="d-block pt-1 pb-1" target="_blank"><button type="button" class="btn btn-success btn-sm" style="box-shadow:-3px 3px #28a64561;">EXPLORE WEBSITE</button></a>
-        <a href="" class="d-block pt-1 pb-1" target="_blank"><button type="button" class="btn btn-danger btn-sm" style="box-shadow:-3px 3px #28a64561;">VIEW SOURCE CODE</button></a>
+        <a href="" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-warning btn-web btn-sm"><i class="fas fa-globe"></i>&nbsp;&nbsp;EXPLORE WEBSITE</button></a>
+        <a href="" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-dark btn-web btn-sm"><i class="far fa-calendar-check"></i>&nbsp;&nbsp;VIEW WIREFRAMES</button></a>
       </div>
     </div>
     <!-- End -->
@@ -251,14 +241,15 @@ $(function() {
     <!-- Start -->
     <div class="row project">
       <div class="col-lg-5 col-md-5 col-sm-12 text-center">
-        <img src="./images/projects/site3.png" class="img-fluid">
+        <img alt="Project Banner" src="./images/projects/site3.png" class="img-fluid">
       </div>
-      <div class="col-lg-7 col-md-7 col-sm-12">
-        <h4 class="project-name">Stephen Alter</h4>
+      <div class="col-lg-7 col-md-7 col-sm-12 project-block">
+        <span class="project-name">Stephen Alter</span>
         <p>The official website of <a href="https://en.wikipedia.org/wiki/Stephen_Alter" target="_blank">Stephen Alter</a>,
           a renowned Indian Author, built with WordPress CMS. His lastest books and publications
           as well as links to purchase his books are present in this website.</p>
-        <a href="" class="d-block pt-1 pb-1" target="_blank"><button type="button" class="btn btn-success btn-sm" style="box-shadow:-3px 3px #28a64561;">EXPLORE WEBSITE</button></a>
+        <a href="http://stephenalter.net/" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-warning btn-web btn-sm"><i class="fas fa-globe"></i>&nbsp;&nbsp;EXPLORE WEBSITE</button></a>
+        <a href="" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-dark btn-web btn-sm"><i class="far fa-calendar-check"></i>&nbsp;&nbsp;VIEW WIREFRAMES</button></a>
       </div>
     </div>
     <!-- End -->
@@ -267,15 +258,17 @@ $(function() {
     <!-- Start -->
     <div class="row project">
       <div class="col-lg-5 col-md-5 col-sm-12 text-center">
-        <img src="./images/projects/site4.png" class="img-fluid">
+        <img alt="Project Banner" src="./images/projects/site4.png" class="img-fluid">
       </div>
-      <div class="col-lg-7 col-md-7 col-sm-12">
-        <h4 class="project-name">Mussoorie Writers</h4>
+      <div class="col-lg-7 col-md-7 col-sm-12 project-block">
+        <span class="project-name">Mussoorie Writers</span>
         <p>After the successful deployment of Stephen Alter's official website, I got
           hired again for another project - Mussoorie Writers. This website was also
           built with WordPress CMS and consists of posts, writings and information
           by renowned authors across the world.</p>
-        <a href="" class="d-block pt-1 pb-1" target="_blank"><button type="button" class="btn btn-success btn-sm" style="box-shadow:-3px 3px #28a64561;">EXPLORE WEBSITE</button></a>
+
+        <a href="http://mussooriewriters.com/" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-warning btn-web btn-sm"><i class="fas fa-globe"></i>&nbsp;&nbsp;EXPLORE WEBSITE</button></a>
+        <a href="" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-dark btn-web btn-sm"><i class="far fa-calendar-check"></i>&nbsp;&nbsp;VIEW WIREFRAMES</button></a>
       </div>
     </div>
     <!-- End -->
@@ -287,8 +280,8 @@ $(function() {
 
 <section class="container-fluid" id="contact">
     <div class="text-center">
-      <img src="./images/headers/contact.png" class="header-icon">
-      <h3>Get in Touch</h3>
+      <img alt="Contact Icon" src="./images/headers/contact.png" class="header-icon">
+      <h3 class="animated infinite pulse">Get in Touch</h3>
     </div>
       <p class="mb-2">
         Do you have a project in mind? Wish to <span class="highlight">collaborate or hire</span> me for a task?
@@ -350,7 +343,7 @@ $(function() {
     -->
     <p class="mt-2 pb-2">
       I am currently working on launching a design blog. Stay tuned for daily
-      updates from the world of digital design <img src="./images/caveman.png"> and marketing.
+      updates from the world of digital design <img alt="caveman" src="./images/caveman.png"> and marketing.
     </p>
   </section>
 
