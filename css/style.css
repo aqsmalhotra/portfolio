@@ -24,7 +24,7 @@ h3 {
 }
 
 body{
-  background-image: url(../images/bg.png);
+  background-image: url(../images/content/bg.png);
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: .08em;
@@ -114,7 +114,7 @@ main{
 }
 
 .main-content{
-    background-color:#03A9F4;
+    background-color:hsl(221, 77%, 58%);
     flex:1 1 0;
     min-width: 768px;
     padding:1em;
@@ -285,8 +285,6 @@ footer{
 
 section {
   background-color: #fff !important;
-  border-top-left-radius: 1%;
-  border-bottom-left-radius: 1%;
 
 }
 

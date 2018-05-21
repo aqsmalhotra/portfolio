@@ -20,7 +20,7 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>css/style.css?v=1.2">
   <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>css/responsive.css?v=1.1">
-  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="shortcut icon" href="images/content/favicon.png" type="image/x-icon">
 
 
   <!--JAVASCRIPT LIBRARY INCLUDED JQUERY, BOOSTRAP-->
@@ -55,14 +55,15 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
       <div class="main-content" id="home">
         <div class="container-fluid">
           <div class="text-center">
-            <img alt="Aqs Malhotra Logo" src="./images/pic.png" class="img-fluid rounded-circle" width="125" height="125" />
+            <img alt="Aqs Malhotra Logo" src="./images/content/logo.png" class="img-fluid rounded-circle" width="125" height="125" />
             <h1 class="portfolio-name">Aqs Malhotra</h1>
             <h2 class="portfolio-role">Web & UX Designer</h2>
             <ul class="social-section">
-              <li><a href="https://www.facebook.com/aqs.malhotra" target="_blank"><img alt="Aqs Malhotra Facebook" src="./images/social/social-icon1.png" /></a></li>
-              <li><a href="https://github.com/aqsmalhotra/" target="_blank"><img alt="Aqs Malhotra Github" src="./images/social/social-icon2.png" /></a></li>
-              <li><a href="https://www.instagram.com/aqsmalhotra/" target="_blank"><img alt="Aqs Malhotra Instagram" src="./images/social/social-icon3.png" /></a></li>
-              <li><a href="https://ca.linkedin.com/in/aqs-malhotra-381b7752" target="_blank"><img alt="Aqs Malhotra LinkedIn" src="./images/social/social-icon4.png" /></a></li>
+              <li><a href="https://www.facebook.com/aqs.malhotra" rel="noopener noreferrer" target="_blank"><img alt="Aqs Malhotra Facebook" src="./images/social/social-icon1.png" /></a></li>
+              <li><a href="https://github.com/aqsmalhotra/" rel="noopener noreferrer" target="_blank"><img alt="Aqs Malhotra Github" src="./images/social/social-icon2.png" /></a></li>
+              <li><a href="http://be.net/aqsm2011e41e" rel="noopener noreferrer" target="_blank"><img alt="Aqs Malhotra Behance" src="./images/social/social-icon5.png" /></a></li>
+              <li><a href="https://ca.linkedin.com/in/aqs-malhotra-381b7752" rel="noopener noreferrer" target="_blank"><img alt="Aqs Malhotra LinkedIn" src="./images/social/social-icon4.png" /></a></li>
+              <li><a href="https://www.instagram.com/aqsmalhotra/" rel="noopener noreferrer" target="_blank"><img alt="Aqs Malhotra Instagram" src="./images/social/social-icon3.png" /></a></li>
             </ul>
             <div class="portfolio-text text-left">
               <p>
@@ -74,7 +75,7 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
             </div>
             <div class="cv-block">
               <a class="cv-btn" href="#projects">View Projects</a>
-              <a class="cv-btn" target="_blank" href="./uploads/resume.pdf">Download CV</a>
+              <a class="cv-btn" rel="noopener noreferrer" target="_blank" href="./uploads/resume.pdf">Download CV</a>
             </div>
           </div>
 
@@ -98,7 +99,7 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
       <h3 class="animated infinite pulse" class="animated infinite pulse">Skills & Interests</h3>
     </div>
     <p class="mb-2">
-      I possess a skill or two, apart from endlessly watching re-reruns of F.R.I.E.N.D.S. <img alt="Cats" src="./images/cat.png">
+      I possess a skill or two, apart from endlessly watching re-reruns of F.R.I.E.N.D.S. <img alt="Cats" src="./images/content/cat.png">
     </p>
     <div class="row text-center">
       <div class="col-lg-4 col-md-4 col-sm-4">
@@ -145,7 +146,7 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
     A web project, be it for a client or personal, needs to <span class="highlight">
     convey the objective clearly.</span> For me, an optimal step-by-step process
     is the way to be as opposed to simply
-    <img alt="Wings" src="./images/wings.png"> "winging it".
+    <img alt="Wings" src="./images/content/wings.png"> "winging it".
     </p>
     <div class="row text-center text-uppercase process">
       <div class="col-lg-3 mt-2 mb-2">
@@ -233,8 +234,8 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
         <p>This is a college group project where I was the lead designer. This website is
         for a non-existent theme park in Toronto with numerous features, like
         ticket booking, parking, careers etc.</p>
-        <a href="" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-warning btn-web btn-sm"><i class="fas fa-globe"></i>&nbsp;&nbsp;EXPLORE WEBSITE</button></a>
-        <a href="" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-dark btn-web btn-sm"><i class="far fa-calendar-check"></i>&nbsp;&nbsp;VIEW WIREFRAMES</button></a>
+        <a href="" rel="noopener noreferrer" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-warning btn-web btn-sm"><i class="fas fa-globe"></i>&nbsp;&nbsp;EXPLORE WEBSITE</button></a>
+        <a href="https://dazzlin.xyz/home" rel="noopener noreferrer" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-dark btn-web btn-sm"><i class="far fa-calendar-check"></i>&nbsp;&nbsp;VIEW WIREFRAMES</button></a>
       </div>
     </div>
     <!-- End -->
@@ -247,11 +248,11 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
       </div>
       <div class="col-lg-7 col-md-7 col-sm-12 project-block">
         <span class="project-name">Stephen Alter</span>
-        <p>The official website of <a href="https://en.wikipedia.org/wiki/Stephen_Alter" target="_blank">Stephen Alter</a>,
+        <p>The official website of <a href="https://en.wikipedia.org/wiki/Stephen_Alter" rel="noopener noreferrer"  target="_blank">Stephen Alter</a>,
           a renowned Indian Author, built with WordPress CMS. His lastest books and publications
           as well as links to purchase his books are present in this website.</p>
-        <a href="http://stephenalter.net/" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-warning btn-web btn-sm"><i class="fas fa-globe"></i>&nbsp;&nbsp;EXPLORE WEBSITE</button></a>
-        <a href="" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-dark btn-web btn-sm"><i class="far fa-calendar-check"></i>&nbsp;&nbsp;VIEW WIREFRAMES</button></a>
+        <a href="http://stephenalter.net/" rel="noopener noreferrer" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-warning btn-web btn-sm"><i class="fas fa-globe"></i>&nbsp;&nbsp;EXPLORE WEBSITE</button></a>
+        <a href="" rel="noopener noreferrer" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-dark btn-web btn-sm"><i class="far fa-calendar-check"></i>&nbsp;&nbsp;VIEW WIREFRAMES</button></a>
       </div>
     </div>
     <!-- End -->
@@ -269,8 +270,8 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
           built with WordPress CMS and consists of posts, writings and information
           by renowned authors across the world.</p>
 
-        <a href="http://mussooriewriters.com/" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-warning btn-web btn-sm"><i class="fas fa-globe"></i>&nbsp;&nbsp;EXPLORE WEBSITE</button></a>
-        <a href="" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-dark btn-web btn-sm"><i class="far fa-calendar-check"></i>&nbsp;&nbsp;VIEW WIREFRAMES</button></a>
+        <a href="http://mussooriewriters.com/" rel="noopener noreferrer" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-warning btn-web btn-sm"><i class="fas fa-globe"></i>&nbsp;&nbsp;EXPLORE WEBSITE</button></a>
+        <a href="" rel="noopener noreferrer" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-dark btn-web btn-sm"><i class="far fa-calendar-check"></i>&nbsp;&nbsp;VIEW WIREFRAMES</button></a>
       </div>
     </div>
     <!-- End -->
@@ -327,34 +328,19 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
         </div>
       </form>
       </div>
-      <!--
-      <div class="row text-center">
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          1
-          <p>(647)-739-5138</p>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          2
-          <p>admin@aqsmalhotra.com</p>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          3
-          <p>(647)-739-5138</p>
-        </div>
-      </div>
-    -->
     <p class="mt-2 pb-2">
       I am currently working on launching a design blog. Stay tuned for daily
-      updates from the world of digital design <img alt="caveman" src="./images/caveman.png"> and marketing.
+      updates from the world of digital design <img alt="caveman" src="./images/content/caveman.png"> and marketing.
     </p>
   </section>
 
   <footer>
     <ul class="social-section">
-      <li><a href="https://www.facebook.com/aqs.malhotra" target="_blank"><img alt="Aqs Malhotra Facebook" src="./images/footer/facebook-logo.png" /></a></li>
-      <li><a href="https://github.com/aqsmalhotra/" target="_blank"><img alt="Aqs Malhotra Github" src="./images/footer/github-logo.png" /></a></li>
-      <li><a href="https://www.instagram.com/aqsmalhotra/" target="_blank"><img alt="Aqs Malhotra Instagram" src="./images/footer/instagram-logo.png" /></a></li>
-      <li><a href="https://ca.linkedin.com/in/aqs-malhotra-381b7752" target="_blank"><img alt="Aqs Malhotra LinkedIn" src="./images/footer/linkedin-logo.png" /></a></li>
+      <li><a href="https://www.facebook.com/aqs.malhotra" rel="noopener noreferrer" target="_blank"><img alt="Aqs Malhotra Facebook" src="./images/footer/facebook-logo.png" /></a></li>
+      <li><a href="https://github.com/aqsmalhotra/" rel="noopener noreferrer" target="_blank"><img alt="Aqs Malhotra Github" src="./images/footer/github-logo.png" /></a></li>
+      <li><a href="http://be.net/aqsm2011e41e" rel="noopener noreferrer" target="_blank"><img alt="Aqs Malhotra Behance" src="./images/footer/behance-logo.png" /></a></li>
+      <li><a href="https://ca.linkedin.com/in/aqs-malhotra-381b7752" rel="noopener noreferrer" target="_blank"><img alt="Aqs Malhotra LinkedIn" src="./images/footer/linkedin-logo.png" /></a></li>
+      <li><a href="https://www.instagram.com/aqsmalhotra/" rel="noopener noreferrer" target="_blank"><img alt="Aqs Malhotra Instagram" src="./images/footer/instagram-logo.png" /></a></li>
     </ul>
     <div class="site-info">
       Aqs Malhotra @<?php echo Date("Y"); ?> All Rights Reserved
