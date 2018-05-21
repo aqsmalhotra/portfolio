@@ -1,8 +1,9 @@
-
 <?php
 DEFINE('BASE_URL','http://localhost/portfolio/');
-//DEFINE('BASE_URL','http://aqsmalhotra.com/');
+//DEFINE('BASE_URL','https://aqsmalhotra.com/');
 ?>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta name="description" content="This is the portfolio website designed by Aqs Malhotra">
   <meta name="author" content="Aqs Malhotra">
@@ -350,10 +351,10 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
 
   <footer>
     <ul class="social-section">
-      <li><a href="https://www.facebook.com/aqs.malhotra" target="_blank"><img alt="Aqs Malhotra Facebook" src="./images/footer/facebook-logo.jpg" /></a></li>
-      <li><a href="https://github.com/aqsmalhotra/" target="_blank"><img alt="Aqs Malhotra Github" src="./images/footer/github-logo.jpg" /></a></li>
-      <li><a href="https://www.instagram.com/aqsmalhotra/" target="_blank"><img alt="Aqs Malhotra Instagram" src="./images/footer/instagram-logo.jpg" /></a></li>
-      <li><a href="https://ca.linkedin.com/in/aqs-malhotra-381b7752" target="_blank"><img alt="Aqs Malhotra LinkedIn" src="./images/footer/linkedin-logo.jpg" /></a></li>
+      <li><a href="https://www.facebook.com/aqs.malhotra" target="_blank"><img alt="Aqs Malhotra Facebook" src="./images/footer/facebook-logo.png" /></a></li>
+      <li><a href="https://github.com/aqsmalhotra/" target="_blank"><img alt="Aqs Malhotra Github" src="./images/footer/github-logo.png" /></a></li>
+      <li><a href="https://www.instagram.com/aqsmalhotra/" target="_blank"><img alt="Aqs Malhotra Instagram" src="./images/footer/instagram-logo.png" /></a></li>
+      <li><a href="https://ca.linkedin.com/in/aqs-malhotra-381b7752" target="_blank"><img alt="Aqs Malhotra LinkedIn" src="./images/footer/linkedin-logo.png" /></a></li>
     </ul>
     <div class="site-info">
       Aqs Malhotra @<?php echo Date("Y"); ?> All Rights Reserved

@@ -9,13 +9,14 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.6em;
 }
 
 h3 {
   font-family: 'Delius',sans-serif;
   font-size: 1.5em;
   color: #290404;
+  font-weight: 600;
 }
 
 *, *::before, *::after{
@@ -194,13 +195,6 @@ main{
 
 .social-section ul {
   list-style: none;
-}
-
-.social-section li {
-  display: inline-block;
-  vertical-align: middle;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 .social-section li {
@@ -402,4 +396,21 @@ section .header-icon {
 
 .project-block p {
   padding-top: 10px;
+}
+
+
+
+.social-section-footer {
+  padding: 10px 0 5px 0;
+}
+
+.social-section-footer ul {
+  list-style: none;
+}
+
+.social-section-footer li {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
+  padding-right: 10px;
 }
