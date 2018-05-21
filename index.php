@@ -11,7 +11,7 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
   <meta name="theme-color" content="#00ABEE"/>
   <title>Aqs Malhotra - Web & UX Designer</title>
 
-<!--CSS LIBRARY, FRAMEWORK INCLUDED-->
+  <!--CSS LIBRARY, FRAMEWORK INCLUDED-->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">

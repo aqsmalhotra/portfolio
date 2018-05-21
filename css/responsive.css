@@ -102,11 +102,13 @@
   [tooltip-position='right']::before{
     top:100%;
     margin-top:8px;
+    left: 70%;
     transform: translateX(-50%) translatey(-100%) rotate(-180deg)
   }
 
   [tooltip-position='right']::after{
     top:100%;
+    left: 70%;
     margin-top:8px;
     transform: translateX(-50%) translateY(0%);
   }
