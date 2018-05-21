@@ -4,29 +4,29 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
 //DEFINE('BASE_URL','http://aqsmalhotra.com/');
 ?>
 <head>
-<meta name="description" content="This is the portfolio website designed by Aqs Malhotra">
-<meta name="author" content="Aqs Malhotra">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="theme-color" content="#00ABEE"/>
-<title>Aqs Malhotra - Web & UX Designer</title>
+  <meta name="description" content="This is the portfolio website designed by Aqs Malhotra">
+  <meta name="author" content="Aqs Malhotra">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#00ABEE"/>
+  <title>Aqs Malhotra - Web & UX Designer</title>
 
 <!--CSS LIBRARY, FRAMEWORK INCLUDED-->
-<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>css/style.css?v=1.2">
-<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>css/responsive.css?v=1.1">
-<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>css/style.css?v=1.2">
+  <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>css/responsive.css?v=1.1">
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
 
-<!--JAVASCRIPT LIBRARY INCLUDED JQUERY, BOOSTRAP-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="<?php echo BASE_URL; ?>script/script.js?v=1.2"></script>
+  <!--JAVASCRIPT LIBRARY INCLUDED JQUERY, BOOSTRAP-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="<?php echo BASE_URL; ?>script/script.js?v=1.2"></script>
 </head>
 <body>
 
@@ -79,6 +79,7 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
 
         </div>
       </div>
+
       <div class="main-nav">
         <ul>
           <li tooltip="Home" tooltip-position="right"><a href="#home"><img alt="Home Icon" src="./images/menu/home.png"></a></li>
@@ -320,7 +321,7 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
           </div>
           <div class="err-msg"></div>
           <div>
-            <input type="submit" class="btn btn-success" value="SUBMIT">
+            <input type="submit" class="btn btn-success btn-web btn-sm" value="SEND NOW">
           </div>
         </div>
       </form>
@@ -348,6 +349,12 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
   </section>
 
   <footer>
+    <ul class="social-section">
+      <li><a href="https://www.facebook.com/aqs.malhotra" target="_blank"><img alt="Aqs Malhotra Facebook" src="./images/footer/facebook-logo.jpg" /></a></li>
+      <li><a href="https://github.com/aqsmalhotra/" target="_blank"><img alt="Aqs Malhotra Github" src="./images/footer/github-logo.jpg" /></a></li>
+      <li><a href="https://www.instagram.com/aqsmalhotra/" target="_blank"><img alt="Aqs Malhotra Instagram" src="./images/footer/instagram-logo.jpg" /></a></li>
+      <li><a href="https://ca.linkedin.com/in/aqs-malhotra-381b7752" target="_blank"><img alt="Aqs Malhotra LinkedIn" src="./images/footer/linkedin-logo.jpg" /></a></li>
+    </ul>
     <div class="site-info">
       Aqs Malhotra @<?php echo Date("Y"); ?> All Rights Reserved
     </div>

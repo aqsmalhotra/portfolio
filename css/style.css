@@ -109,6 +109,7 @@ main{
     flex-flow:row wrap;
     position:relative;
     padding:1em;
+    margin-bottom: 10px;
 }
 
 .main-content{
@@ -290,6 +291,9 @@ footer{
 
 section {
   background-color: #fff !important;
+  border-top-left-radius: 1%;
+  border-bottom-left-radius: 1%;
+
 }
 
 .header-icon {
