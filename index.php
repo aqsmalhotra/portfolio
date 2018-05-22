@@ -1,6 +1,6 @@
 <?php
-DEFINE('BASE_URL','http://localhost/portfolio/');
 //DEFINE('BASE_URL','https://aqsmalhotra.com/');
+DEFINE('BASE_URL','localhost/portfolio');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -38,7 +38,7 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
       <div class="main-content" id="home">
         <div class="container-fluid">
           <div class="text-center">
-            <img alt="Aqs Malhotra Logo" src="./images/content/logo.png" class="img-fluid rounded-circle" width="125" height="125" />
+            <img alt="Aqs Malhotra Logo" src="./images/content/logo.png" class="img-fluid rounded-circle" width="150" height="150" />
             <h1 class="portfolio-name">Aqs Malhotra</h1>
             <h2 class="portfolio-role">Web & UX Designer</h2>
             <ul class="social-section">
@@ -99,19 +99,17 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
         <span class="skill-set">Prototyping</span>
         <ul class="list-unstyled skill-lists">
           <li>Balsamiq</li>
-          <li>UXPin</li>
           <li>InVision</li>
           <li>Mockflow</li>
-          <li>Marvel</li>
         </ul>
       </div>
       <div class="col-lg-4 col-md-4 col-sm-4">
         <span class="skill-set">Marketing</span>
         <ul class="list-unstyled skill-lists">
-          <li>Google Adwords</li>
           <li>Google Analytics</li>
           <li>Google Webmaster</li>
-          <li>WP Analytics</li>
+          <li>PushEngage</li>
+          <li>Jetpack</li>
           <li>Moz Analytics</li>
         </ul>
       </div>
@@ -190,7 +188,7 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
     <!-- Start -->
     <div class="row project">
       <div class="col-lg-5 col-md-5 col-sm-12 text-center">
-        <img alt="Project Banner" src="./images/projects/site2.png" class="img-fluid">
+        <img alt="Project Banner" src="./images/projects/site1.png" class="img-fluid">
       </div>
       <div class="col-lg-7 col-md-7 col-sm-12 project-block">
         <span class="project-name">Dazzlin Star Island Amusement Park</span>
@@ -207,7 +205,7 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
     <!-- Start -->
     <div class="row project">
       <div class="col-lg-5 col-md-5 col-sm-12 text-center">
-        <img alt="Project Banner" src="./images/projects/site3.png" class="img-fluid">
+        <img alt="Project Banner" src="./images/projects/site2.png" class="img-fluid">
       </div>
       <div class="col-lg-7 col-md-7 col-sm-12 project-block">
         <span class="project-name">Stephen Alter</span>
@@ -224,7 +222,7 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
     <!-- Start -->
     <div class="row project">
       <div class="col-lg-5 col-md-5 col-sm-12 text-center">
-        <img alt="Project Banner" src="./images/projects/site4.png" class="img-fluid">
+        <img alt="Project Banner" src="./images/projects/site3.png" class="img-fluid">
       </div>
       <div class="col-lg-7 col-md-7 col-sm-12 project-block">
         <span class="project-name">Mussoorie Writers</span>

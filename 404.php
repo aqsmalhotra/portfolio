@@ -1,6 +1,6 @@
 <?php
-DEFINE('BASE_URL','http://localhost/portfolio/');
 //DEFINE('BASE_URL','https://aqsmalhotra.com/');
+DEFINE('BASE_URL','localhost/portfolio');
 ?>
 <!DOCTYPE html>
 <html lang="en">
