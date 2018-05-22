@@ -22,7 +22,6 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
   <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>css/responsive.css?v=1.1">
   <link rel="shortcut icon" href="images/content/favicon.png" type="image/x-icon">
 
-
   <!--JAVASCRIPT LIBRARY INCLUDED JQUERY, BOOSTRAP-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -33,22 +32,6 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
 
 <div class="page-wrapper">
   <header>
-<!--
-      <div class="header-logo">
-        <img alt="SVG" src="./images/logo.svg" class="img-fluid"/> Aqs Malhotra
-      </div>
-      <div class="toggle-menu"><i class="ion-drag"></i></div>
-      <div class="header-nav-wrapper">
-        <div class="close-nav"><i class="ion-close"></i></div>
-        <ul class="header-nav">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Blog</a></li>
-          <div class="header-nav-section">
-            PLACE TEXT HERE
-          </div>
-        </ul>
-      </div>
--->
   </header>
 
   <main>
@@ -205,26 +188,6 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
 
     <!-- Project #1 -->
     <!-- Start -->
-    <!--
-    <div class="row project">
-      <div class="col-lg-5 col-md-5 col-sm-12 text-center">
-        <img alt="Project Banner" src="./images/projects/site1.png" class="img-fluid">
-      </div>
-      <div class="col-lg-7 col-md-7 col-sm-12 project-block">
-        <span class="project-name">Hotel Saffron</span>
-        <p>Built with Custom CSS, Bootstrap and minimal PHP, this single-page
-          design was made to ensure more people can visit and access the website without
-          compromising speed and quality.
-        </p>
-        <a href="" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-warning btn-web btn-sm"><i class="fas fa-globe"></i> EXPLORE WEBSITE</button></a>
-        <a href="" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-dark btn-web btn-sm">VIEW SOURCE CODE</button></a>
-      </div>
-    </div>
-    -->
-    <!-- End -->
-
-    <!-- Project #2 -->
-    <!-- Start -->
     <div class="row project">
       <div class="col-lg-5 col-md-5 col-sm-12 text-center">
         <img alt="Project Banner" src="./images/projects/site2.png" class="img-fluid">
@@ -234,13 +197,13 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
         <p>This is a college group project where I was the lead designer. This website is
         for a non-existent theme park in Toronto with numerous features, like
         ticket booking, parking, careers etc.</p>
-        <a href="" rel="noopener noreferrer" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-warning btn-web btn-sm"><i class="fas fa-globe"></i>&nbsp;&nbsp;EXPLORE WEBSITE</button></a>
-        <a href="https://dazzlin.xyz/home" rel="noopener noreferrer" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-dark btn-web btn-sm"><i class="far fa-calendar-check"></i>&nbsp;&nbsp;VIEW WIREFRAMES</button></a>
+        <a href="https://dazzlin.xyz/home" rel="noopener noreferrer" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-warning btn-web btn-sm"><i class="fas fa-globe"></i>&nbsp;&nbsp;EXPLORE WEBSITE</button></a>
+        <a href="https://www.behance.net/gallery/65881955/Dazzlin-Star-Island" rel="noopener noreferrer" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-dark btn-web btn-sm"><i class="far fa-calendar-check"></i>&nbsp;&nbsp;VIEW WIREFRAMES</button></a>
       </div>
     </div>
     <!-- End -->
 
-    <!-- Project #3 -->
+    <!-- Project #2 -->
     <!-- Start -->
     <div class="row project">
       <div class="col-lg-5 col-md-5 col-sm-12 text-center">
@@ -252,12 +215,12 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
           a renowned Indian Author, built with WordPress CMS. His lastest books and publications
           as well as links to purchase his books are present in this website.</p>
         <a href="http://stephenalter.net/" rel="noopener noreferrer" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-warning btn-web btn-sm"><i class="fas fa-globe"></i>&nbsp;&nbsp;EXPLORE WEBSITE</button></a>
-        <a href="" rel="noopener noreferrer" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-dark btn-web btn-sm"><i class="far fa-calendar-check"></i>&nbsp;&nbsp;VIEW WIREFRAMES</button></a>
+        <a href="https://www.behance.net/gallery/50743029/stephenalter-webdesign-wireframe" rel="noopener noreferrer" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-dark btn-web btn-sm"><i class="far fa-calendar-check"></i>&nbsp;&nbsp;VIEW WIREFRAMES</button></a>
       </div>
     </div>
     <!-- End -->
 
-    <!-- Project #4 -->
+    <!-- Project #3 -->
     <!-- Start -->
     <div class="row project">
       <div class="col-lg-5 col-md-5 col-sm-12 text-center">
@@ -271,7 +234,7 @@ DEFINE('BASE_URL','http://localhost/portfolio/');
           by renowned authors across the world.</p>
 
         <a href="http://mussooriewriters.com/" rel="noopener noreferrer" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-warning btn-web btn-sm"><i class="fas fa-globe"></i>&nbsp;&nbsp;EXPLORE WEBSITE</button></a>
-        <a href="" rel="noopener noreferrer" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-dark btn-web btn-sm"><i class="far fa-calendar-check"></i>&nbsp;&nbsp;VIEW WIREFRAMES</button></a>
+        <a href="https://www.behance.net/gallery/50742371/mussooriewriters-communtiy-wireframe-webdesign" rel="noopener noreferrer" class="d-block pt-1 pb-2" target="_blank"><button type="button" class="btn btn-dark btn-web btn-sm"><i class="far fa-calendar-check"></i>&nbsp;&nbsp;VIEW WIREFRAMES</button></a>
       </div>
     </div>
     <!-- End -->
